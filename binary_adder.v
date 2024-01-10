@@ -2,7 +2,7 @@ module binary_adder(
   input a,
   input b,
   output sum,
-  output carry,
+  output carry
   )
   assign sum = a^b;
   assign carry = a&b;
